@@ -1,0 +1,60 @@
+.columna{
+    width: 50%;
+    padding: 0.625em;
+    box-sizing: border-box;
+
+}
+
+.columna.contacto{
+   border-right: 1px solid #ddd;
+   float:left;     
+}
+
+.datos{
+    float: right;
+}
+
+.datos p{
+    font-size: 1.2em;
+}
+
+.datos ul li{
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.formulario label{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.formulario input, .formulario textarea{
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 0.8em;
+    padding:0.4em 0.6em;
+    width: 90%;
+} 
+
+.formulario textarea{
+    resize: none;
+    height: 18em;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
+
+.formulario input[type="submit"]{
+    background: #ff8000;
+    
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding:0.4em 0.2em;
+    text-align: center;
+    
+    cursor: pointer;
+}
